@@ -29,7 +29,6 @@ func main() {
 
 	args = append(args, "-w", os.Args[1])
 
-	fmt.Println(args)
 	cmd := exec.Command(args[0], args[1:]...)
 	b, err := cmd.Output()
 	if err != nil {
