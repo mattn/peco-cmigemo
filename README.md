@@ -1,5 +1,8 @@
 # peco-cmigemo
 
+**NOTE: This is obsolete. Use gomigemo**
+
+
 C/Migemo matcher for peco
 
 ## Installation
